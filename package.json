@@ -1,0 +1,26 @@
+{
+	"name": "trader",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon index.js",
+		"debug": "node --inspect-brk index.js"
+	},
+	"dependencies": {
+		"bcrypt": "^3.0.2",
+		"coinbase-pro": "^0.9.0",
+		"dotenv": "^6.2.0",
+		"express": "^4.16.4",
+		"express-session": "^1.15.6",
+		"node": "^11.1.0",
+		"node-fetch": "^2.3.0",
+		"nodemon": "^2.0.2",
+		"session-file-store": "^1.4.0",
+		"uuidv4": "^6.0.7"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
